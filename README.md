@@ -191,19 +191,3 @@ A: ML can be used to automatically select optimal parameters based on image char
 > 📊 **Average Grain Area:** `505.97` pixels² (approx.)
 
 ---
-
-## 📁 Folder Structure
-
-```bash
-project/
-│
-├── images/                # Input images
-├── output/                # Segmented and labeled images
-├── scripts/               # Python scripts
-├── results/               # CSVs or text output (areas, grain count)
-├── README.md              # Project documentation (this file)
-```
-
----
-
-Let me know if you want me to help generate code snippets, plot visuals, or markdown for the example images section too!
