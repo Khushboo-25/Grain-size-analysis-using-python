@@ -94,50 +94,50 @@ The **average grain area** is then calculated by dividing the total area by the 
 ### 🔍 General
 
 **Q1. What is the primary purpose of this model?**
-A: Segmenting and labeling grains in images for analysis in scientific and industrial fields.
+> A: Segmenting and labeling grains in images for analysis in scientific and industrial fields.
 
 **Q2. Which industries can benefit?**
-A: Material science, agriculture, geology, pharmaceuticals, environmental science, and forensics.
+> A: Material science, agriculture, geology, pharmaceuticals, environmental science, and forensics.
 
 **Q3. How does the model improve efficiency?**
-A: It automates image segmentation, reducing manual effort and improving consistency.
+> A: It automates image segmentation, reducing manual effort and improving consistency.
 
 **Q4. Can the model adapt to different image types?**
-A: Yes, with enhancements like adaptive parameter tuning and machine learning integration.
+> A: Yes, with enhancements like adaptive parameter tuning and machine learning integration.
 
 ---
 
 ### ⚙️ Technical
 
 **Q1. What algorithm is used for segmentation?**
-A: A combination of denoising (NLM filter) and thresholding (Otsu’s method).
+> A: A combination of denoising (NLM filter) and thresholding (Otsu’s method).
 
 **Q2. How are colors assigned to grains?**
-A: Post-segmentation using `label2rgb()`, but improvements are planned to ensure distinct colors.
+> A: Post-segmentation using `label2rgb()`, but improvements are planned to ensure distinct colors.
 
 **Q3. What challenges were encountered?**
-A: Over-/under-segmentation, color overlap, and the need for parameter fine-tuning.
+> A: Over-/under-segmentation, color overlap, and the need for parameter fine-tuning.
 
 **Q4. Can it handle overlapping grains?**
-A: Not reliably yet. This is a known limitation being addressed with advanced segmentation techniques.
+> A: Not reliably yet. This is a known limitation being addressed with advanced segmentation techniques.
 
 **Q5. How is noise handled?**
-A: Using the NLM filter, which preserves grain boundaries while removing various noise types.
+> A: Using the NLM filter, which preserves grain boundaries while removing various noise types.
 
 **Q6. What metrics are used to evaluate performance?**
-A: Metrics like precision, recall, Jaccard index, and Dice coefficient.
+> A: Metrics like precision, recall, Jaccard index, and Dice coefficient.
 
 **Q7. Can the model process high-density images?**
-A: Yes, but may struggle with labeling color similarity; enhancements are ongoing.
+> A: Yes, but may struggle with labeling color similarity; enhancements are ongoing.
 
 **Q8. Does it support real-time analysis?**
-A: Not currently. Speed improvements via GPU acceleration are being explored.
+> A: Not currently. Speed improvements via GPU acceleration are being explored.
 
 **Q9. Can it handle multi-scale grains?**
-A: Yes, but requires tuning to ensure small and large grains are segmented accurately.
+> A: Yes, but requires tuning to ensure small and large grains are segmented accurately.
 
 **Q10. How can machine learning help?**
-A: ML can be used to automatically select optimal parameters based on image characteristics, improving generalization and robustness.
+> A: ML can be used to automatically select optimal parameters based on image characteristics, improving generalization and robustness.
 
 ---
 
