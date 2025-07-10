@@ -1,6 +1,16 @@
-# Grain Size Analysis using Python
+# 🧪 Grain Size Analysis using Python
+> A Python-based tool to automatically detect and analyze grain structures in microscopic images.
 
 This project focuses on analyzing the **size of grains** in microscopic images. In such images, *grains* are small, closed regions that form on metal surfaces. Our primary goal is to compute the **average size of grains** in a given image using image processing techniques in Python.
+
+## 📚 Table of Contents
+- [Overview](#-overview-of-the-pipeline)
+- [Applications](#-applications-of-this-model)
+- [Benefits](#-benefits)
+- [FAQs](#-frequently-asked-questions-faqs)
+- [Future Improvements](#-future-improvements)
+- [Technologies Used](#-technologies-used)
+- [Sample Results](#-sample-results)
 
 ---
 
